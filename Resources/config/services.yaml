@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Auxmoney\OpentracingBundleMonolog\Processor\MonologTracingHeaderProcessor:
+    tags:
+      - { name: monolog.processor }

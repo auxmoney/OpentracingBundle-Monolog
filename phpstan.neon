@@ -1,0 +1,7 @@
+parameters:
+  paths:
+    - DependencyInjection
+    - Processor
+
+  level: 7
+  inferPrivatePropertyTypeFromConstructor: true

@@ -14,7 +14,7 @@ This bundle is only an additional plugin and should not be installed independent
 
 After you have installed the OpentracingBundle:
 
-* require the dependencies (unfortunately, `opentracing/opentracing` is not released in a stable version right now):
+* require the dependencies:
 
 ```bash
     composer req auxmoney/opentracing-bundle-monolog:^0.3

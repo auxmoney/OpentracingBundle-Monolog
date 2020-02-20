@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Auxmoney\OpentracingBundleMonolog;
+namespace Auxmoney\OpentracingMonologBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

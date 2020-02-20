@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Auxmoney\OpentracingBundleMonolog\Tests\Processor;
+namespace Auxmoney\OpentracingMonologBundle\Tests\Processor;
 
 use Auxmoney\OpentracingBundle\Factory\TracerFactory;
 use Auxmoney\OpentracingBundle\Internal\CachedOpentracing;
 use Auxmoney\OpentracingBundle\Internal\Opentracing;
 use Auxmoney\OpentracingBundle\Tests\Mock\MockTracer;
-use Auxmoney\OpentracingBundleMonolog\Processor\MonologTracingHeaderProcessor;
+use Auxmoney\OpentracingMonologBundle\Processor\MonologTracingHeaderProcessor;
 use OpenTracing\Tracer;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;

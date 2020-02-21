@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Auxmoney\OpentracingBundleMonolog\Processor;
+namespace Auxmoney\OpentracingMonologBundle\Processor;
 
 use Auxmoney\OpentracingBundle\Internal\Opentracing;
 use const OpenTracing\Formats\TEXT_MAP;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Auxmoney\OpentracingBundleMonolog\Tests\DependencyInjection;
+namespace Auxmoney\OpentracingMonologBundle\Tests\DependencyInjection;
 
-use Auxmoney\OpentracingBundleMonolog\DependencyInjection\OpentracingMonologExtension;
-use Auxmoney\OpentracingBundleMonolog\Processor\MonologTracingHeaderProcessor;
+use Auxmoney\OpentracingMonologBundle\DependencyInjection\OpentracingMonologExtension;
+use Auxmoney\OpentracingMonologBundle\Processor\MonologTracingHeaderProcessor;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

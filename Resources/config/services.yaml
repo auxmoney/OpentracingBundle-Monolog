@@ -4,6 +4,6 @@ services:
     autoconfigure: true
     public: false
 
-  Auxmoney\OpentracingBundleMonolog\Processor\MonologTracingHeaderProcessor:
+  Auxmoney\OpentracingMonologBundle\Processor\MonologTracingHeaderProcessor:
     tags:
       - { name: monolog.processor }

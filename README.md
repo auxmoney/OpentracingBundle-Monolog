@@ -1,5 +1,13 @@
 # auxmoney OpentracingBundle - Monolog
 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/auxmoney/OpentracingBundle-Monolog)
+![Travis (.org)](https://img.shields.io/travis/auxmoney/OpentracingBundle-Monolog)
+![Coveralls github](https://img.shields.io/coveralls/github/auxmoney/OpentracingBundle-Monolog)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa0c65d723464aebaf66bc522445e0e8)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/auxmoney/OpentracingBundle-Monolog)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/auxmoney/OpentracingBundle-Monolog)
+![GitHub](https://img.shields.io/github/license/auxmoney/OpentracingBundle-Monolog)
+
 This bundle adds a monolog processor to the [OpentracingBundle](https://github.com/auxmoney/OpentracingBundle-core) to automatically enrich 
 log contexts with the current span context.
 
@@ -30,12 +38,12 @@ If you are not using it, you need to manually enable the bundle:
 
 ```php
     # Symfony 3: AppKernel.php
-    $bundles[] = new Auxmoney\OpentracingBundleMonolog\OpentracingMonologBundle();
+    $bundles[] = new Auxmoney\OpentracingMonologBundle\OpentracingMonologBundle();
 ```
 
 ```php
     # Symfony 4: bundles.php
-    Auxmoney\OpentracingBundleMonolog\OpentracingMonologBundle::class => ['all' => true],
+    Auxmoney\OpentracingMonologBundle\OpentracingMonologBundle::class => ['all' => true],
 ```
 
 ## Configuration

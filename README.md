@@ -56,7 +56,7 @@ No configuration is necessary, the Monolog bundle extension will automatically l
 Whenever a message is logged, the content is extended with extra information of the span context.
 
 ```
-    [2020-01-10 11:38:02] php.INFO: .... {"exception":"[object] (ErrorException(code: 0) ...."} {"opentracing-context":"{\"UBER-TRACE-ID\":\"15e880402e1a194715e880402e19a3e0:15e880402e19a3e0:0:1\"}"}
+    [2020-01-10 11:38:03] php.INFO: .... {"exception":"[object] (ErrorException(code: 0) ...."} {"opentracing-context":"{\"UBER-TRACE-ID\":\"15e880402e1a194715e880402e19a3e0:15e880402e19a3e0:0:1\"}"}
 ```
 
 ## Development

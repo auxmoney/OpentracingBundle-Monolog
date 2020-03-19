@@ -1,5 +1,6 @@
 # auxmoney OpentracingBundle - Monolog
 
+![release](https://github.com/auxmoney/OpentracingBundle-Monolog/workflows/release/badge.svg)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/auxmoney/OpentracingBundle-Monolog)
 ![Travis (.org)](https://img.shields.io/travis/auxmoney/OpentracingBundle-Monolog)
 ![Coveralls github](https://img.shields.io/coveralls/github/auxmoney/OpentracingBundle-Monolog)

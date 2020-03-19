@@ -20,13 +20,21 @@ class MonologTracingHeaderProcessorTest extends TestCase
         $tracer = $this->prophesize(Tracer::class);
         $tracer->getActiveSpan()->willReturn(null);
         $tracerFactory = $this->prophesize(TracerFactory::class);
-        $tracerFactory->create('project name', 'agent host', 'agent port')->willReturn($tracer->reveal());
+        $tracerFactory->create(
+            'project name',
+            'agent host',
+            'agent port',
+            'Jaeger\Sampler\ConstSampler',
+            '"true"'
+        )->willReturn($tracer->reveal());
         $opentracing = new CachedOpentracing(
             $tracerFactory->reveal(),
             $this->prophesize(LoggerInterface::class)->reveal(),
             'project name',
             'agent host',
-            'agent port'
+            'agent port',
+            'Jaeger\Sampler\ConstSampler',
+            '"true"'
         );
 
         $subject = new MonologTracingHeaderProcessor($opentracing);

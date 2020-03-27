@@ -26,7 +26,7 @@ After you have installed the OpentracingBundle:
 * require the dependencies:
 
 ```bash
-    composer req auxmoney/opentracing-bundle-monolog:^0.4
+    composer req auxmoney/opentracing-bundle-monolog
 ```
 
 ### Enable the bundle

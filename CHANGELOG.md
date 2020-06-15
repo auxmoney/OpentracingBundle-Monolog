@@ -1,3 +1,10 @@
+## [0.4.4](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.3...v0.4.4) (2020-06-15)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([96e6cdb](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/96e6cdb1d94794f5a6d138f25d1fbe8f364adaba))
+
 ## [0.4.3](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.2...v0.4.3) (2020-03-27)
 
 

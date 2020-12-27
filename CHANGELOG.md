@@ -1,3 +1,10 @@
+## [0.4.5](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.4...v0.4.5) (2020-12-27)
+
+
+### Bug Fixes
+
+* replace Travis with GitHub ([#10](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/10)) ([b68476d](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/b68476d079d4308f3588b6ab767fd1fd9d2969d8))
+
 ## [0.4.4](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.3...v0.4.4) (2020-06-15)
 
 

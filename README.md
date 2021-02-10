@@ -1,8 +1,7 @@
 # auxmoney OpentracingBundle - Monolog
 
-![release](https://github.com/auxmoney/OpentracingBundle-Monolog/workflows/release/badge.svg)
+[![test](https://github.com/auxmoney/OpentracingBundle-Monolog/workflows/test/badge.svg)](https://github.com/auxmoney/OpentracingBundle-Monolog/actions?query=workflow%3Atest)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/auxmoney/OpentracingBundle-Monolog)
-![Travis (.org)](https://img.shields.io/travis/auxmoney/OpentracingBundle-Monolog)
 ![Coveralls github](https://img.shields.io/coveralls/github/auxmoney/OpentracingBundle-Monolog)
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa0c65d723464aebaf66bc522445e0e8)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/auxmoney/OpentracingBundle-Monolog)

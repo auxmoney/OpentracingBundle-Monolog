@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Auxmoney\OpentracingMonologBundle\Processor;
 
 use Auxmoney\OpentracingBundle\Internal\Opentracing;
+
 use const OpenTracing\Formats\TEXT_MAP;
 
 final class MonologTracingHeaderProcessor

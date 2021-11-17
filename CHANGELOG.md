@@ -1,3 +1,13 @@
+# [1.0.0](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.5...v1.0.0) (2021-11-17)
+
+
+* feat!: update core and opentracing to v1 (#14) ([ab00469](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/ab004699a15b3850294584c003890282158ffafc)), closes [#14](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/14)
+
+
+### BREAKING CHANGES
+
+* update core and opentracing to v1
+
 ## [0.4.5](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.4...v0.4.5) (2020-12-27)
 
 

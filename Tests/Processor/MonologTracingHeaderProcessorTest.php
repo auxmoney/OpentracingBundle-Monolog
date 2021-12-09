@@ -11,10 +11,13 @@ use Auxmoney\OpentracingBundle\Tests\Mock\MockTracer;
 use Auxmoney\OpentracingMonologBundle\Processor\MonologTracingHeaderProcessor;
 use OpenTracing\Tracer;
 use PHPUnit\Framework\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 use Psr\Log\LoggerInterface;
 
 class MonologTracingHeaderProcessorTest extends TestCase
 {
+    use ProphecyTrait;
+
     public function testInvokeNoSpan(): void
     {
         $tracer = $this->prophesize(Tracer::class);

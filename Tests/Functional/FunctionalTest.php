@@ -20,6 +20,6 @@ class FunctionalTest extends JaegerConsoleFunctionalTest
         self::assertNotEmpty($traceId);
 
         $logFileContent = file_get_contents('build/testproject/var/log/dev.log');
-        self::assertContains($traceId, $logFileContent);
+        self::assertStringContainsString($traceId, $logFileContent);
     }
 }

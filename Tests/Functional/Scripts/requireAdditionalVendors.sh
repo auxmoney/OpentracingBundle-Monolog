@@ -2,8 +2,13 @@
 shopt -s extglob
 
 cd build/testproject/
-composer require auxmoney/opentracing-bundle-monolog
-rm -fr vendor/auxmoney/opentracing-bundle-monolog/*
-cp -r ../../!(build|vendor) vendor/auxmoney/opentracing-bundle-monolog
+VENDOR_VERSION=""
+CURRENT_REF=${GITHUB_HEAD_REF:-$GITHUB_REF}
+CURRENT_BRANCH=${CURRENT_REF#refs/heads/}
+if [[ $CURRENT_BRANCH -ne "master" ]]; then
+    composer config minimum-stability dev
+    VENDOR_VERSION=":dev-${CURRENT_BRANCH}"
+fi
+composer require auxmoney/opentracing-bundle-monolog${VENDOR_VERSION}
 composer dump-autoload
 cd ../../

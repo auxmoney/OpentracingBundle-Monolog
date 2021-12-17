@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.0.0...v1.1.0) (2021-12-17)
+
+
+### Features
+
+* support PHP 8 ([#16](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/16)) ([c43a943](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/c43a9435365066f9bb6c0191e3f9b727b164696f))
+
 # [1.0.0](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v0.4.5...v1.0.0) (2021-11-17)
 
 

@@ -9,6 +9,6 @@ if [[ $CURRENT_BRANCH -ne "master" ]]; then
     composer config minimum-stability dev
     VENDOR_VERSION=":dev-${CURRENT_BRANCH}"
 fi
-composer require auxmoney/opentracing-bundle-monolog${VENDOR_VERSION}
+composer require auxmoney/opentracing-bundle-monolog${VENDOR_VERSION} --with-all-dependencies
 composer dump-autoload
 cd ../../

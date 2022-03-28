@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.1.0...v1.2.0) (2022-03-28)
+
+
+### Features
+
+* support Symfony 6 ([#17](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/17)) ([f1cb08b](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/f1cb08b04b13fe40f6255d6a05efd074045b55af))
+
 # [1.1.0](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.0.0...v1.1.0) (2021-12-17)
 
 

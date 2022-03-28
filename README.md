@@ -28,7 +28,7 @@ After you have installed the OpentracingBundle:
     composer req auxmoney/opentracing-bundle-monolog
 ```
 
-### Enable the bundle
+### Enable the bundle 
 
 If you are using [Symfony Flex](https://github.com/symfony/flex), you are all set!
 

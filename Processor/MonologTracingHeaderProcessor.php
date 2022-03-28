@@ -10,7 +10,7 @@ use const OpenTracing\Formats\TEXT_MAP;
 
 final class MonologTracingHeaderProcessor
 {
-    private $opentracing;
+    private Opentracing $opentracing;
 
     public function __construct(Opentracing $opentracing)
     {

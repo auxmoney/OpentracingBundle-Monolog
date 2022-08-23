@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.2.1...v1.2.2) (2022-08-23)
+
+
+### Bug Fixes
+
+* symfony cli installation ([#22](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/22)) ([12a1199](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/12a1199792e0473a9bc3a5b96f5ba1826b4dcbd7))
+
 ## [1.2.1](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.2.0...v1.2.1) (2022-07-22)
 
 

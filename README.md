@@ -10,6 +10,7 @@
 This bundle adds a monolog processor to the [OpentracingBundle](https://github.com/auxmoney/OpentracingBundle-core) to automatically enrich 
 log contexts with the current span context.
 
+
 ## Installation
 
 ### Prerequisites

@@ -48,11 +48,16 @@
     ],
     "phpmd": "vendor/bin/phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --exclude vendor,Tests",
     "phpcs": "vendor/bin/phpcs",
-    "phpunit": "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit",
+    "phpunit": [
+      "Tests/Functional/Scripts/requireMonolog.sh",
+      "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit"
+    ],
+    "phpunit-local": "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit",
     "phpunit-functional": [
       "vendor/auxmoney/opentracing-bundle-core/Tests/Functional/Scripts/checkEnvironment.sh",
       "vendor/auxmoney/opentracing-bundle-core/Tests/Functional/Scripts/setup.sh",
       "Tests/Functional/Scripts/requireAdditionalVendors.sh",
+      "Tests/Functional/Scripts/requireMonolog.sh",
       "vendor/auxmoney/opentracing-bundle-core/Tests/Functional/Scripts/createResetPoint.sh",
       "vendor/bin/phpunit --colors=never --testsuite=functional --no-coverage",
       "vendor/auxmoney/opentracing-bundle-core/Tests/Functional/Scripts/teardown.sh"

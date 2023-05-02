@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.2.2...v1.2.3) (2023-05-02)
+
+
+### Bug Fixes
+
+* update supported PHP and Symfony versions + fix composer behavio… ([#26](https://github.com/auxmoney/OpentracingBundle-Monolog/issues/26)) ([b94c284](https://github.com/auxmoney/OpentracingBundle-Monolog/commit/b94c28404050433fab6360ec21ebc8507e9acaaf))
+
 ## [1.2.2](https://github.com/auxmoney/OpentracingBundle-Monolog/compare/v1.2.1...v1.2.2) (2022-08-23)
 
 

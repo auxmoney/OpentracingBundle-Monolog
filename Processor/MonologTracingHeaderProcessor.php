@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Auxmoney\OpentracingMonologBundle\Processor;
 
+use ArrayAccess;
 use Auxmoney\OpentracingBundle\Internal\Opentracing;
 
 use const OpenTracing\Formats\TEXT_MAP;
@@ -18,10 +19,10 @@ final class MonologTracingHeaderProcessor
     }
 
     /**
-     * @param array<string,mixed> $record
-     * @return array<string,mixed>
+     * @param ArrayAccess<string,mixed>|array<string,mixed> $record
+     * @return ArrayAccess<string,mixed>|array<string,mixed>
      */
-    public function __invoke(array $record): array
+    public function __invoke(ArrayAccess|array $record): ArrayAccess|array
     {
         $span = $this->opentracing->getTracerInstance()->getActiveSpan();
         if ($span) {

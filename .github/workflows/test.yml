@@ -113,7 +113,7 @@ jobs:
           MONOLOG_VERSION: ${{ matrix.monolog }}
         run: |
           composer config --no-plugins allow-plugins.symfony/flex true
-          composer run-script quality
+          composer run-script quality-ci
 
   test_functional:
     name: Functional Tests

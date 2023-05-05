@@ -1,5 +1,7 @@
 #!/bin/bash
 shopt -s extglob
 
-composer reinstall monolog/monolog:^${MONOLOG_VERSION}
+cd build/testproject/
+composer require monolog/monolog:^${MONOLOG_VERSION} --with-dependencies
 composer dump-autoload
+cd ../../

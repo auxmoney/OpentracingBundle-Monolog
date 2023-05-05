@@ -44,13 +44,19 @@
       "@phpcs",
       "@phpmd",
       "@phpstan",
+      "@phpunit-local"
+    ],
+    "quality-ci": [
+      "@phpcs",
+      "@phpmd",
+      "@phpstan",
       "@phpunit"
     ],
     "phpmd": "vendor/bin/phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --exclude vendor,Tests",
     "phpcs": "vendor/bin/phpcs",
     "phpunit": [
-      "Tests/Functional/Scripts/requireMonolog.sh",
-      "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit"
+      "composer require guzzlehttp/guzzle:^${GUZZLE_VERSION} --with-dependencies",
+      "@phpunit-local"
     ],
     "phpunit-local": "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit",
     "phpunit-functional": [

@@ -55,7 +55,7 @@
     "phpmd": "vendor/bin/phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --exclude vendor,Tests",
     "phpcs": "vendor/bin/phpcs",
     "phpunit": [
-      "composer require guzzlehttp/guzzle:^${GUZZLE_VERSION} --with-dependencies",
+      "composer require monolog/monolog:^${MONOLOG_VERSION} --with-dependencies",
       "@phpunit-local"
     ],
     "phpunit-local": "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit",

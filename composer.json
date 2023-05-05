@@ -55,7 +55,7 @@
     "phpmd": "vendor/bin/phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --exclude vendor,Tests",
     "phpcs": "vendor/bin/phpcs",
     "phpunit": [
-      "composer require monolog/monolog:^${MONOLOG_VERSION} --with-all-dependencies",
+      "composer update monolog/monolog:^${MONOLOG_VERSION} --with-all-dependencies",
       "@phpunit-local"
     ],
     "phpunit-local": "XDEBUG_MODE=coverage vendor/bin/phpunit --colors=never --testsuite=unit",
